@@ -37,17 +37,16 @@
     </div>
   </header>
 
-  <main class="main-container">
-    <div class="container form__container">
-      <h1 class="form__title">Подбор программы</h1>
-      <p class="form__description">Заполните анкету, и мы подберем программу питания для вашего кота</p>
+  <main class="main">
+    <div class="container main__container">
+      <h1 class="main__container-title">Подбор программы</h1>
+      <p class="main__container-description">Заполните анкету, и мы подберем программу питания для вашего кота</p>
 
       <form class="form" action="https://echo.htmlacademy.ru/" method="post">
         <div class="form__wrapper">
 
           <fieldset class="form__fieldset form__fieldset--pet">
             <legend class="visually-hidden">Информация о питомце</legend>
-
             <ul class="form__fields">
               <li class="form__fields-item field">
                 <label class="form__label" for="name">Имя:*</label>
@@ -66,7 +65,7 @@
 
           <fieldset class="form__fieldset form__fieldset--program">
             <legend class="visually-hidden">Вид программы</legend>
-            <ul class="form__fields form">
+            <ul class="form__fields form__fields--program">
               <li class="form__fields-item control">
                 <label class="control__label">
                   <input class="form__input" type="radio" value="lose" name="service" checked>
@@ -92,8 +91,8 @@
           </fieldset>
 
           <fieldset class="form__fieldset form__fieldset--owner">
-            <legend class="form__subtitle form-subtitle--owner">Контактные данные (владельца кота)</legend>
-            <ul class="form__fields form-fields--owner">
+            <legend class="form__subtitle form__subtitle--owner">Контактные данные (владельца кота)</legend>
+            <ul class="form__fields form__fields--owner">
               <li class="form__fields-item field">
                 <label class="field__label" for="form-email">E-mail:*</label>
                 <input class="field__input" placeholder="kuklachev@gmail.com" type="email" name="form-email"
@@ -168,7 +167,7 @@
         </div>
 
         <div class="contacts__location">
-          <div class="container contacts__location-wrapper">
+          <div class="container contacts__location-container">
             <h2 class="visually-hidden">Местоположение на карте</h2>
             <img class="contacts__location-map" src="#" width="320" height="362" alt="Карта с адресом магазина.">
           </div>
