@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Подбор программы</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -37,10 +38,10 @@
     </div>
   </header>
 
-  <main class="main">
-    <div class="container main__container">
-      <h1 class="main__container-title">Подбор программы</h1>
-      <p class="main__container-description">Заполните анкету, и мы подберем программу питания для вашего кота</p>
+  <main class="main-form">
+    <div class="container main-form__container">
+      <h1 class="main-form__container-title">Подбор программы</h1>
+      <p class="main-form__container-description">Заполните анкету, и мы подберем программу питания для вашего кота</p>
 
       <form class="form" action="https://echo.htmlacademy.ru/" method="post">
         <div class="form__wrapper">
@@ -70,7 +71,7 @@
                 <label class="control__label">
                   <input class="form__input" type="radio" value="lose" name="service" checked>
                   <span class="form__mark"></span>
-                  <span class="form_name">Похудение</span>
+                  <span class="form__name">Похудение</span>
                 </label>
               </li>
               <li class="form__fields-item control">
@@ -124,7 +125,7 @@
               </li>
 
               <li class="form__fields__item control">
-                <label class="additional__label">
+                <label class="control__label">
                   <input class="control__input" type="checkbox" name="water">
                   <span class="control__mark checkbox"></span>
                   <span class="control__text control__text--additional">Питьевая вода</span>
