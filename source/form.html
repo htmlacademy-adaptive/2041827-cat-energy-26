@@ -50,16 +50,16 @@
             <legend class="visually-hidden">Информация о питомце</legend>
             <ul class="form__fields">
               <li class="form__fields-item field">
-                <label class="form__label" for="name">Имя:*</label>
-                <input class="form__input form-pet-name" type="text" placeholder="Барсик" name="name" id="name">
+                <label class="field__label" for="name">Имя:*</label>
+                <input class="field__input form-pet-name" type="text" placeholder="Барсик" name="name" id="name">
               </li>
               <li class="form__fields-item field">
-                <label class="form__label" for="weight">Вес (кг)*:</label>
-                <input class="form__input form-pet-weight" type="number" placeholder="7" name="weight" id="weight">
+                <label class="field__label" for="weight">Вес (кг)*:</label>
+                <input class="field__input form-pet-weight" type="number" placeholder="7" name="weight" id="weight">
               </li>
               <li class="form__fields-item field">
-                <label class="form__label" for="age">Возраст (лет):</label>
-                <input class="form__input form-pet-age" type="number" placeholder="7" name="age" id="age">
+                <label class="field__label" for="age">Возраст (лет):</label>
+                <input class="field__input form-pet-age" type="number" placeholder="7" name="age" id="age">
               </li>
             </ul>
           </fieldset>
@@ -109,22 +109,22 @@
 
           <fieldset class="form__fieldset form__fieldset--comments">
             <legend class="form__subtitle form__subtitle--comments">Комментарий</legend>
-            <textarea class="form__textarea" name="comment" cols="30" rows="10"
+            <textarea class="form__textarea" name="comment"
               placeholder="Расскажите обо всех повадках кота"></textarea>
           </fieldset>
 
           <fieldset class="form__fieldset form__fieldset--additional">
-            <h2 class="form__subtitle form__subtitle--additional">Дополнительно</h2>
-            <ul class="form__fields form__fields--additional">
-              <li class="form__fields__item control">
+            <legend class="form__subtitle form__subtitle--additional">Дополнительно</legend>
+            <ul class="form__fields-list form__fields-list--additional">
+              <li class="form__fields-item control">
                 <label class="control__label">
-                  <input class="visually-hidden control__input" type="checkbox" name="sugar" checked>
+                  <input class="control__input" type="checkbox" name="sugar" checked>
                   <span class="control__mark checkbox"></span>
                   <span class="control__text control__text--additional">Сахарозаменитель</span>
                 </label>
               </li>
 
-              <li class="form__fields__item control">
+              <li class="form__fields-item control">
                 <label class="control__label">
                   <input class="control__input" type="checkbox" name="water">
                   <span class="control__mark checkbox"></span>
@@ -132,7 +132,7 @@
                 </label>
               </li>
 
-              <li class="form__fields__item control">
+              <li class="form__fields-item control">
                 <label class="control__label">
                   <input class="control__input" type="checkbox" name="milk">
                   <span class="control__mark"></span>
@@ -140,7 +140,7 @@
                 </label>
               </li>
 
-              <li class="form__fields__item control">
+              <li class="form__fields-item control">
                 <label class="control__label">
                   <input class="control__input" type="checkbox" name="vitamins">
                   <span class="control__mark"></span>
