@@ -1,0 +1,14 @@
+.page-header {
+  width: 320px;
+  margin: 0 auto;
+}
+.page-header__container {
+  min-height: 65px;
+}
+.page-header__logo-wrapper {
+  padding-top: 10px;
+  margin: 0 auto;
+}
+.page-header__logo-link {
+  display: block;
+}
