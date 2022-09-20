@@ -3,23 +3,26 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Academy: Кэт энерджи</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <header class="page-header">
-    <div class="container page-header__container">
-      <div class="page-header__logo-wrapper">
-        <a class="page-header__logo-link" href="index.html">
-          <img class="page-header__logo-icon" src="#" width="34" height="38" alt="Логотип CAT ENERGY.">
+  <header class="container page-header">
+    <div class="page-header__container">
+      <div class="page-header__logo-wrapper logo">
+        <a class="logo__link" href="index.html">
+          <img class="logo__icon logo__icon--mobile" src="#" width="34" height="38" alt="Логотип CAT ENERGY.">
+          <img class="logo__icon logo__icon--tablet" src="#" width="34" height="38" alt="Логотип CAT ENERGY.">
+          <img class="logo__icon logo__icon--desktop" src="#" width="34" height="38" alt="Логотип CAT ENERGY.">
         </a>
-        <a class="page-header__logo-link" href="index.html">
-          <img class="page-header__logo-icon" src="#" width="101" height="18" alt="Бренд CAT ENERGY.">
+        <a class="logo__text" href="index.html">
+          <img class="logo__icon" src="#" width="101" height="18" alt="Бренд CAT ENERGY.">
         </a>
       </div>
 
-      <nav class="header-navigation">
+      <nav class="header-navigation header-navigation--closed header-navigation--nojs">
         <button class="header-navigation__toggle" type="button">
           <span class="visually-hidden">Открыть меню</span>
         </button>
@@ -43,7 +46,8 @@
       <div class="container promo__container">
         <h1 class="promo__title">Функциональное питание для котов</h1>
         <span class="promo__description">Занялся собой? Займись котом!</span>
-        <img class="promo__image" src="./img/index-can-chicken.svg" width="280" height="270" alt="Самый популярный корм каталога.">
+        <img class="promo__image" src="./img/index-can-chicken.svg" width="280" height="270"
+          alt="Самый популярный корм каталога.">
         <a class="promo__link button" href="form.html">Подобрать программу</a>
       </div>
     </section>
@@ -152,9 +156,10 @@
           </li>
         </ul>
       </div>
-      <a class="page-footer__logo-academy" href="https://htmlacademy.ru/">HTML Academy</a>
-        <img class="page-footer__logo-academy-icon" src="#" width="27" height="34" alt="Логотип HTML-Академии.">
-      </a>
+      <div class="page-footer__copyright copyright">
+        <a class="copyright__academy-text" href="https://htmlacademy.ru/">HTML Academy</a>
+        <img class="copyright__academy-icon" src="#" width="27" height="34" alt="Логотип HTML-Академии.">
+      </div>
     </div>
   </footer>
 </body>

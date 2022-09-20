@@ -6,12 +6,10 @@
   line-height: 40px;
   font-weight: 400;
 }
-
 .features__list {
   list-style-type: none;
   padding-left: 80px;
 }
-
 @media (min-width: 780px) {
   .features__list {
     display: grid;
@@ -20,7 +18,6 @@
     row-gap: 37px;
   }
 }
-
 @media (min-width: 1440px) {
   .features__list {
     padding: 0;
@@ -28,14 +25,12 @@
     flex-direction: row;
   }
 }
-
 .features__item {
   font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
 }
-
 .features__item:not(:last-child) {
   padding-bottom: 20px;
 }

@@ -1,7 +1,6 @@
 .contacts__partnership {
   padding: 26px 0;
 }
-
 .contacts__partnership-invitation {
   font-family: "Oswald", sans-serif;
   display: block;
@@ -13,7 +12,6 @@
   color: #111111;
   max-width: 139px;
 }
-
 .contacts__partnership-address {
   display: block;
   margin: 0;
@@ -22,20 +20,12 @@
   color: #444444;
   max-width: 139px;
 }
-
 .contacts__partnership-wrapper {
   display: flex;
 }
-
 @media (min-width: 780px) {
   .contacts__partnership-wrapper {
     display: flex;
     justify-content: space-between;
   }
 }
-
-// @media (min-width: 1440px) {
-//   .contacts__partnership-wrapper {
-//     display: flex;
-//   }
-// }

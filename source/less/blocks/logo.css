@@ -1,0 +1,33 @@
+.logo {
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  width: 190px;
+  height: 65px;
+  align-items: center;
+}
+.logo__icon--tablet,
+.logo__icon--desktop {
+  display: none;
+}
+@media (min-width: 768px) {
+  .logo {
+    margin: 0;
+    padding: 0;
+    margin-right: 94px;
+  }
+  .logo__icon--mobile {
+    display: none;
+  }
+}
+@media (min-width: 1440px) {
+  .logo {
+    margin-right: 548px;
+  }
+  .logo__icon--tablet {
+    display: none;
+  }
+}
+.logo__link {
+  display: block;
+}

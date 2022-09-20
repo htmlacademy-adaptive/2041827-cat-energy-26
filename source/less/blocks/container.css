@@ -4,20 +4,17 @@
   margin: 0 auto;
   box-sizing: border-box;
 }
-
 @media (min-width: 768px) {
   .container {
     min-width: 768px;
     padding: 0 30px;
     margin: 0 auto;
-    }
+  }
 }
-
 @media (min-width: 1440px) {
   .container {
     min-width: 1440px;
     padding: 0 110px;
     margin: 0 auto;
-    }
+  }
 }
-
