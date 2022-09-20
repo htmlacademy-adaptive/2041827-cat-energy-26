@@ -5,7 +5,7 @@
 }
 
 .header-navigation__item {
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid @white;
 }
 
 .header-navigation__link {
@@ -18,10 +18,10 @@
   font-size: 20px;
   line-height: 20px;
   padding: 22px 0 24px;
-  color: #000000;
+  color: @black;
 }
 
-@media (min-width: 768px) {
+@media (min-width: @tablet-width) {
   .header-navigation__toggle {
     display: none;
   }
@@ -49,7 +49,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: @desktop-width) {
   .header-navigation__toggle {
     display: none;
   }
@@ -74,8 +74,8 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 20px;
-    color: #ffffff;
-    background-color: #68B738;
+    // color: @white;
+    color: @black; //временно, чтобы было видно буквы
   }
 }
 

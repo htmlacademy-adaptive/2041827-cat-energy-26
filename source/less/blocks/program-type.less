@@ -5,7 +5,7 @@
   margin-top: 20px;
 }
 
-@media (min-width: 780px) {
+@media (min-width: @tablet-width) {
   .program-type__container {
     display: grid;
     grid-template-columns: 708px;
@@ -14,7 +14,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: @desktop-width) {
   .program-type__container {
     display: grid;
     grid-template-columns: 570px 570px;
@@ -24,7 +24,7 @@
 }
 
 .program-type__item {
-  background-color: #f2f2f2;
+  background-color: @basic-grey;
   padding: 0 33px 22px 20px;
   margin: 0;
 }
@@ -50,7 +50,7 @@
 
 .program-type__item-link {
   text-decoration: none;
-  color: #000000;
+  color: @black;
   font-size: 20px;
   line-height: 30px;
   margin-right: 17px;

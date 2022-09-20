@@ -5,7 +5,7 @@
   font-size: 24px;
   line-height: 24px;
   font-weight: 400;
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid @special-grey-2;
 }
 
 .product-additional__list {
@@ -38,3 +38,23 @@
 .product-additional__button {
   padding: 10px 109px;
 }
+
+@media (min-width: @tablet-width) {
+  .product-additional__list {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .product-additional__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product-additional__item {
+    width: 896px;
+    display: flex;
+    justify-content: space-between;
+   }
+  }

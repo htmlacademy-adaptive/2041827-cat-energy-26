@@ -34,3 +34,24 @@
 .product__button {
   padding: 10px 109px;
 }
+
+.product-more__wrapper {
+  padding: 20px 0 25px;
+}
+
+@media (min-width: @tablet-width) {
+  .product__list {
+    display: grid;
+    grid-template-columns: repeat(2, 324px);
+    column-gap: 60px;
+    row-gap: 55px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .product__list {
+    grid-template-columns: repeat(4, 245px);
+    column-gap: 80px;
+    row-gap: 60px;
+  }
+}
