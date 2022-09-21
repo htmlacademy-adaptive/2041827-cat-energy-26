@@ -10,7 +10,7 @@
   line-height: 20px;
   font-weight: 400;
   text-transform: uppercase;
-  color: #111111;
+  color: @light-black;
   max-width: 139px;
 }
 
@@ -19,6 +19,23 @@
   margin: 0;
   font-family: "Arial", sans-serif;
   line-height: 20px;
-  color: #444444;
+  color: @special-dark-grey;
   max-width: 139px;
 }
+
+.contacts__partnership-wrapper {
+  display: flex;
+}
+
+@media (min-width: @tablet-width) {
+  .contacts__partnership-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+// @media (@desktop-width) {
+//   .contacts__partnership-wrapper {
+//     display: flex;
+//   }
+// }
