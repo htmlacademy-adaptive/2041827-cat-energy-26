@@ -60,3 +60,29 @@
   margin: 0;
   margin-top: 27px;
 }
+
+@media (min-width: @tablet-width) {
+  .form__fields-list {
+    display: grid;
+    grid-template-columns: repeat(2, 231px);
+    column-gap: 123px;
+    row-gap: 32px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .form__fields-list {
+    display: flex;
+  }
+
+  .form__wrapper-desktop {
+    display: grid;
+    grid-template-columns: repeat(2, 569px);
+    column-gap: 80px;
+  }
+
+  .form__fields--owner {
+    display: grid;
+    grid-template-columns: repeat(2, 569px);
+  }
+}

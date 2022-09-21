@@ -9,8 +9,8 @@
 </head>
 
 <body>
-  <header class="container page-header">
-    <div class="page-header__container">
+  <header class="page-header">
+    <div class="container page-header__container">
       <div class="page-header__logo-wrapper logo">
         <a class="logo__link" href="index.html">
           <img class="logo__icon logo__icon--mobile" src="#" width="34" height="38" alt="Логотип CAT ENERGY.">
@@ -48,51 +48,52 @@
 
       <form class="form" action="https://echo.htmlacademy.ru/" method="post">
         <div class="form__wrapper">
+          <div class="form__wrapper-desktop">
+            <fieldset class="form__fieldset form__fieldset--pet">
+              <legend class="visually-hidden">Информация о питомце</legend>
+              <ul class="form__fields">
+                <li class="form__fields-item field">
+                  <label class="field__label" for="name">Имя:*</label>
+                  <input class="field__input form-pet-name" type="text" placeholder="Барсик" name="name" id="name">
+                </li>
+                <li class="form__fields-item field">
+                  <label class="field__label" for="weight">Вес (кг)*:</label>
+                  <input class="field__input form-pet-weight" type="number" placeholder="7" name="weight" id="weight">
+                </li>
+                <li class="form__fields-item field">
+                  <label class="field__label" for="age">Возраст (лет):</label>
+                  <input class="field__input form-pet-age" type="number" placeholder="7" name="age" id="age">
+                </li>
+              </ul>
+            </fieldset>
 
-          <fieldset class="form__fieldset form__fieldset--pet">
-            <legend class="visually-hidden">Информация о питомце</legend>
-            <ul class="form__fields">
-              <li class="form__fields-item field">
-                <label class="field__label" for="name">Имя:*</label>
-                <input class="field__input form-pet-name" type="text" placeholder="Барсик" name="name" id="name">
-              </li>
-              <li class="form__fields-item field">
-                <label class="field__label" for="weight">Вес (кг)*:</label>
-                <input class="field__input form-pet-weight" type="number" placeholder="7" name="weight" id="weight">
-              </li>
-              <li class="form__fields-item field">
-                <label class="field__label" for="age">Возраст (лет):</label>
-                <input class="field__input form-pet-age" type="number" placeholder="7" name="age" id="age">
-              </li>
-            </ul>
-          </fieldset>
-
-          <fieldset class="form__fieldset form__fieldset--program">
-            <legend class="visually-hidden">Вид программы</legend>
-            <ul class="form__fields form__fields--program">
-              <li class="form__fields-item control">
-                <label class="control__label">
-                  <input class="form__input" type="radio" value="lose" name="service" checked>
-                  <span class="form__mark"></span>
-                  <span class="form__name">Похудение</span>
-                </label>
-              </li>
-              <li class="form__fields-item control">
-                <label class="control__label">
-                  <input class="form__input" type="radio" value="gain" name="service">
-                  <span class="control__mark"></span>
-                  <span class="control__name">Набор массы</span>
-                </label>
-              </li>
-              <li class="form__fields-item control">
-                <label class="control__label">
-                  <input class="control__input" type="radio" value="unknown" name="service">
-                  <span class="control__mark"></span>
-                  <span class="control__name">Не знаю (нужен ваш совет)</span>
-                </label>
-              </li>
-            </ul>
-          </fieldset>
+            <fieldset class="form__fieldset form__fieldset--program">
+              <legend class="visually-hidden">Вид программы</legend>
+              <ul class="form__fields form__fields--program">
+                <li class="form__fields-item control">
+                  <label class="control__label">
+                    <input class="form__input" type="radio" value="lose" name="service" checked>
+                    <span class="form__mark"></span>
+                    <span class="form__name">Похудение</span>
+                  </label>
+                </li>
+                <li class="form__fields-item control">
+                  <label class="control__label">
+                    <input class="form__input" type="radio" value="gain" name="service">
+                    <span class="control__mark"></span>
+                    <span class="control__name">Набор массы</span>
+                  </label>
+                </li>
+                <li class="form__fields-item control">
+                  <label class="control__label">
+                    <input class="control__input" type="radio" value="unknown" name="service">
+                    <span class="control__mark"></span>
+                    <span class="control__name">Не знаю (нужен ваш совет)</span>
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
 
           <fieldset class="form__fieldset form__fieldset--owner">
             <legend class="form__subtitle form__subtitle--owner">Контактные данные (владельца кота)</legend>
